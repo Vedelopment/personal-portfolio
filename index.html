@@ -18,10 +18,63 @@
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 <body>
-  <div id="page-wrapper">
-    <h1>Vedelopment!!</h1>
-    <h4>Sloth or chocolate croissant?</h4>
-    <img src="https://s-media-cache-ak0.pinimg.com/736x/40/21/0d/40210d98b0d847377f7c2cbfdf421188.jpg">
-  </div>
+  <div class="page-wrapper" id="page-wrapper">
+    <div class="main-section">
+      <div class=class="centerHeading">
+        <h1 class="mainHeading">Vedelopment</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#" class="navButton">My Work</a></li>
+          <li><a href="#" class="navButton">Get in touch</a></li>
+          <li><a href="#tasselsection" class="navButton">Play!</a></li>
+        </ul>
+      </nav>
+      <div class="loremContainer">
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad min
+        </p>
+      </div>
+      <img class="bioPic" src="assets/imgs/patchbay.png">
+      <a class="slothLink" href="https://www.google.com/search?q=sloth+or+chocolate+croissant&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi6_9_TudHQAhXErFQKHRrRCCkQ_AUICCgB&biw=1309&bih=726" target="_blank">Sloth or chocolate croissant?</a>
+    </div>
+      <div class="tassel-section" id="tasselsection">
+        <div class="toggle">
+          <button class="buttonToggle" id="buttonToggle" onclick="playMode()">Click/Hover</button>
+        </div>
+        <div class="tassel" id="tassel">
+              <p class="string"></p>
+              <p class="string"></p>
+              <p class="stringEgg" id="stringEgg" onclick="playMeow()"></p>
+              <p class="string"></p>
+              <p class="string"></p>
+              <p class="string"></p>
+              <p class="string"></p>
+              <p class="string"></p>
+              <p class="string"></p>
+              <p class="string"></p>
+              <p class="playMode top" id=top onclick="playRoll()"></p>
+                <div class="breeze" id="breeze">
+                  <p class="do" id=do onclick="playDo()"></p>
+                  <p class=re id=re onclick="playRe()"></p>
+                  <p class=mi id=mi onclick="playMi()"></p>
+                  <p class=fa id=fa onclick="playFa()"></p>
+                  <p class=sol id=sol onclick="playSol()"></p>
+                  <p class=la id=la onclick="playLa()"></p>
+                  <p class=ti id=ti onclick="playTi()"></p>
+                  <p class=dooct id=dooct onclick="playDooct()"></p>
+                </div>
+                <audio id=playMeow src="http://soundbible.com/mp3/ie_Short_Cow_MooMeow_Mix_Comm-KevanGC-2007570186.mp3" type="audio/mpeg"></audio>
+                <audio id=playRoll src="http://www.freesound.org/data/previews/164/164773_2841029-lq.mp3" type="audio/mpeg"></audio>
+                <audio id=playDo src="http://www.agnes-bruckner.com/apronus_static/music-lessons/sounds/c.mp3" type="audio/mpeg"></audio>
+                <audio id=playRe src="http://www.agnes-bruckner.com/apronus_static/music-lessons/sounds/d.mp3" type="audio/mpeg"></audio>
+                <audio id=playMi src="http://www.agnes-bruckner.com/apronus_static/music-lessons/sounds/e.mp3" type="audio/mpeg"></audio>
+                <audio id=playFa src="http://www.agnes-bruckner.com/apronus_static/music-lessons/sounds/f.mp3" type="audio/mpeg"></audio>
+                <audio id=playSol src="http://www.agnes-bruckner.com/apronus_static/music-lessons/sounds/g.mp3" type="audio/mpeg"></audio>
+                <audio id=playLa src="http://www.agnes-bruckner.com/apronus_static/music-lessons/sounds/a.mp3" type="audio/mpeg"></audio>
+                <audio id=playTi src="http://www.agnes-bruckner.com/apronus_static/music-lessons/sounds/h.mp3" type="audio/mpeg"></audio>
+                <audio id=playDooct src="http://www.agnes-bruckner.com/apronus_static/music-lessons/sounds/c1.mp3" type="audio/mpeg"></audio>
+              <a href="#page-wrapper" class="footer-nav">Vedelopment © 2016</a>
+          </div>
+      </div>
 </body>
 </html>
