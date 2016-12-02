@@ -3,6 +3,13 @@
 2. incorporate "fun" into other sections or blend these moz-border-radius
 3. Continue styling sections, make these more sectional (change background color?)
 
+#Feedback from classmates:
+- make main section formatted to fill screen as in, don't have half the photo below it showing
+- carry the sense of fun from the bottom through to the other sections
+- make each section more distinct visually maybe with headers or different background color
+- wish there was more color on the top part of the page
+- wonder if narrowing the width of the lines of text would make the site feel easier to read on the eyes
+
 # Learn Git Training
 
 1. Create a fork of the [this](https://github.com/sf-wdi-31/personal-portfolio) by clicking "Fork" on the top right.
