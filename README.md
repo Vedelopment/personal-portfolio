@@ -1,3 +1,8 @@
+##Future Updates:
+1. get jQuery headline onclick function to work
+2. incorporate "fun" into other sections or blend these moz-border-radius
+3. Continue styling sections, make these more sectional (change background color?)
+
 # Learn Git Training
 
 1. Create a fork of the [this](https://github.com/sf-wdi-31/personal-portfolio) by clicking "Fork" on the top right.

@@ -23,12 +23,12 @@ body {
 .loremContainer {
   display: block;
 }
-ul {
+ul.nav-main {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-li {
+li.nav-main {
   display: inline-block;
 }
 .lorem {
@@ -37,16 +37,44 @@ li {
   font-weight: bold;
   text-align: justify;
 }
+.contact {
+  display: block;
+  font-size: 1.9vw;
+  font-weight: bold;
+  text-align: center;
+  padding: 55px;
+}
 .bioPic {
   display: block;
   margin: auto;
   max-width: 50vw;
 }
-.slothLink {
+.my-work {
+  list-style: none;
+  border: 2px solid rgb(53, 27, 3);
+  background-color: rgb(237, 221, 206);
+  padding-bottom: 200px;
+}
+.github-links {
+  list-style: none;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgba(53, 27, 3, .9);
+  -ms-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  margin: 10px auto;
   display: block;
   text-align: center;
   margin: 20px 30px;
-  cursor: url(croissantcursor.png), auto;
+}
+#contact {
+  list-style: none;
+  border: 2px solid rgb(53, 27, 3);
+  background-color: rgb(237, 221, 206);
+  margin-bottom: 100px;
 }
 .navButton {
   text-decoration: none;
@@ -79,6 +107,10 @@ li {
   -webkit-transition: .5s ease;
   transition: .5s ease;
   margin: 10px auto;
+  display: block;
+  text-align: center;
+  margin: 20px 30px;
+  cursor: url(croissantcursor.png), auto;
 }
 .slothLink:visited {
   text-decoration: none;
