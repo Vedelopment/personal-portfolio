@@ -13,6 +13,8 @@ body {
   display: block;
   text-align: center;
   font-size: 10vw;
+  max-width: 100%;
+  max-height: auto;
   border: 2px solid rgb(53, 27, 3);
   margin: 0 auto;
   padding: 2vw;
