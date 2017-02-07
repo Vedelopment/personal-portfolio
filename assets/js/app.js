@@ -221,7 +221,6 @@ function playDooct()
       }else{
           playDooct.currentTime = 0;}
 }
-/////////////////////////////////////////// JQUERY ////////////////////////////////////
 $(document).ready(function(){
-  $("#main-section").on("click", function playMeow());
-}
+  $("#main-section").on("click", playMeow());
+});
