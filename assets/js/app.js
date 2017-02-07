@@ -222,5 +222,5 @@ function playDooct()
           playDooct.currentTime = 0;}
 }
 $(document).ready(function(){
-  $("#main-section").on("click", playMeow());
+  // $("#main-section").on("click", playMeow());
 });

@@ -72,6 +72,17 @@ li.nav-main {
   text-align: center;
   margin: 20px 30px;
 }
+
+.github-links:visited {
+  text-decoration: none;
+  color: rgb(53, 27, 3);
+}
+
+.github-links:hover {
+  text-decoration: none;
+  color: #b22f73;
+}
+
 #contact {
   list-style: none;
   border: 2px solid rgb(53, 27, 3);
@@ -97,6 +108,7 @@ li.nav-main {
   color: rgb(237, 221, 206);
 }
 .navButton:hover {
+  text-decoration: none;
   background-color: #b22f73;
 }
 .slothLink {
