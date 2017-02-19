@@ -88,7 +88,7 @@ li.nav-main {
   background-color: rgb(237, 221, 206);
   margin-bottom: 100px;
 }
-.navButton {
+.navButton, .navButton:visited, .navButton:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 1.5em;
@@ -102,12 +102,7 @@ li.nav-main {
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
-.navButton:visited {
-  text-decoration: none;
-  color: rgb(237, 221, 206);
-}
 .navButton:hover {
-  text-decoration: none;
   background-color: #b22f73;
 }
 .slothLink {
@@ -201,7 +196,7 @@ li.nav-main {
   height: 20px;
   width: 10px;
   border-radius: 20px 5px 20px 5px;
-  cursor: url("pusheencursorsmall.png"), auto;
+  cursor: url("cat_small.png"), auto;
 }
 .top {
   transition: background-color 0.2s ease;
