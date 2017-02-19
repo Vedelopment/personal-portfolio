@@ -20,7 +20,6 @@ body {
   padding: 2vw;
   color: rgb(53, 27, 3);
   background-color: rgb(237, 221, 206);
-  cursor: url(pusheencursormed.png), url(pusheencursorsmall.png), auto;
 }
 .loremContainer {
   display: block;
@@ -124,7 +123,6 @@ li.nav-main {
   display: block;
   text-align: center;
   margin: 20px 30px;
-  cursor: url(croissantcursor.png), auto;
 }
 .slothLink:visited {
   text-decoration: none;
@@ -203,7 +201,7 @@ li.nav-main {
   height: 20px;
   width: 10px;
   border-radius: 20px 5px 20px 5px;
-  cursor: url("pusheencursormed.png"), auto;
+  cursor: url("pusheencursorsmall.png"), auto;
 }
 .top {
   transition: background-color 0.2s ease;
