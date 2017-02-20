@@ -14,11 +14,12 @@
   <!-- <link rel="stylesheet" type="text/css" href="assets/css/main.css"> -->
   <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/1112a7eba0.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
   <!-- Latest compiled and minified CSS -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type=text/css href="assets/css/main.css">
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -39,51 +40,63 @@
           <li class="nav-main"><a href="#tasselsection" class="navButton">Play!</a></li>
         </ul>
       </nav>
-      <div class="about aboutContainer">
-        <div class="box">
-          <p>Why hello! I am a web developer who specializes in front-end with an eye for design and passion for seamless user experience. With a decade of experience as a music producer, engineer and studio tech, working with rotating teams of inspired people and troubleshooting technical issues are strengths I bring to my current development work. Learn a little more about <a href="#my-work">my work</a> and <a href="#contact">say hello!</a>
+      <div class="row container-fluid about aboutContainer">
+        <div class="col-sm-3 dev-box">
+          <div class="dev-header">
+            <h4>About</h4>
+          </div>
+          <p class="dev-box-text">Why hello! I am a web developer who specializes in front-end with an eye for design and passion for seamless user experience. With a decade of experience as a music producer, engineer and studio tech, working with rotating teams of inspired people and troubleshooting technical issues are strengths I bring to my current development work. Check out <a href="#my-work">my work</a> and <a href="#contact">say hello!</a>
           </p>
         </div>
-        <div class="box">
-          <div>
-            <h2>Code</h2>
-            <ul class="weight-normal">
-              <li>HTML5</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-              <li>JjQuery</li>
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>MongoDB</li>
-            </ul>
+        <div class="col-sm-3 dev-box">
+          <div class="dev-header">
+            <h4>Code</h4>
           </div>
+          <ul class="weight-normal">
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Materialize</li>
+            <li>jQuery</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
+            <li>MVC Patterns</li>
+            <li>Angular</li>
+            <li>RESTful Routing/APIs</li>
+            <li>Testing</li>
+          </ul>
         </div>
-        <div class="box">
-          <div>
-            <h2>Learning</h2>
-            <ul class="weight-normal">
-              <li>d3</li>
-              <li>SASS</li>
-            </ul>
+        <div class="col-sm-3 dev-box">
+          <div class="dev-header">
+            <h4>Learning</h4>
           </div>
+          <ul class="weight-normal">
+            <li>d3</li>
+            <li>SASS</li>
+          </ul>
         </div>
       </div>
-      <img class="bioPic" src="assets/imgs/patchbay.png">
-      <div id="my-work">
-        <ul class="my-work">
-          <li><a class="project-links" href="http://save-the-enterprise.bitballoon.com/">Save the Enterprise! Game</a></li>
-          <li><a class="project-links" href="https://github.com/Vedelopment/vedelopment.github.io">Vedelopment Site</a></li>
-          <li><a class="project-links" href="https://github.com/Vedelopment/js-control-flow-training">Java Flow Control Training</a></li>
-          <li><a class="project-links" href="https://github.com/Vedelopment/functions-training">Functions Training</a></li>
-          <li><a class="project-links" href="https://github.com/Vedelopment/dev-tools-training">Dev Tools Training</a></li>
-          <li><a class="project-links" href="#">Another thing</a></li>
-          <li><a class="project-links" href="#">Another thing</a></li>
-          <li><a class="project-links" href="#">Another thing</a></li>
-        </ul>
-      <div class="about" id="contact">
-        <p class="contact">Professional, aesthetically-forward design and interactivity so you can provide a powerful and engaging experience.</p>
-        <p class="contact">Email me at nothanks@gmail.com or follow me here, here and here.</p>
-      </div>
+      <!-- <img class="bioPic" src="assets/imgs/patchbay.png"> -->
+      <div class="row container">
+        <div class="col-sm-5 dev-box" id="my-work">
+          <div class="dev-header">
+            <h4>Projects</h4>
+          </div>
+          <ul>
+            <li><a class="project-links" href=""><i class="fa fa-spinner" aria-hidden="true"></i> Final Project</a></li>
+            <li><a class="project-links" href="http://save-the-enterprise.bitballoon.com/"><i class="fa fa-hand-spock-o" aria-hidden="true"></i> Save the Enterprise! Game</a></li>
+            <li><a class="project-links" href=""><i class="fa fa-leaf" aria-hidden="true"></i> FEDD</a></li>
+            <li><a class="project-links" href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i> TASC</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-5 dev-box" id="contact">
+          <div class="dev-header">
+            <h4>Contact</h4>
+          </div>
+          <p class="contact"><a href="mailto:vedelopment@gmail.com">Email</a> me at vedelopment@gmail.com or follow me here, here and here.</p>
+        </div>
       </div>
     </div>
 <!--//////////////////////////////////////////***TASSEL SECTION***////////////////////////////////////////////////////-->
@@ -102,16 +115,16 @@
             <p class="string"></p>
             <p class="string"></p>
             <p class="string"></p>
-            <p class="playMode top" id=top onclick="playRoll()"></p>
+            <p class="playMode dev-top" id=dev-top onclick="playRoll()"></p>
               <div class="breeze" id="breeze">
-                <p class="do" id=do onclick="playDo()"></p>
-                <p class=re id=re onclick="playRe()"></p>
-                <p class=mi id=mi onclick="playMi()"></p>
-                <p class=fa id=fa onclick="playFa()"></p>
-                <p class=sol id=sol onclick="playSol()"></p>
-                <p class=la id=la onclick="playLa()"></p>
-                <p class=ti id=ti onclick="playTi()"></p>
-                <p class=dooct id=dooct onclick="playDooct()"></p>
+                <p class="dev-do" id=dev-do onclick="playDo()"></p>
+                <p class="dev-re" id=dev-re onclick="playRe()"></p>
+                <p class="dev-mi" id=dev-mi onclick="playMi()"></p>
+                <p class="dev-fa" id=dev-fa onclick="playFa()"></p>
+                <p class="dev-sol" id=dev-sol onclick="playSol()"></p>
+                <p class="dev-la" id=dev-la onclick="playLa()"></p>
+                <p class="dev-ti" id=dev-ti onclick="playTi()"></p>
+                <p class=dev-dooct id=dev-dooct onclick="playDooct()"></p>
               </div>
               <audio id=playMeow src="assets/audio/Meow_Mix_Comm.mp3" type="audio/mpeg"></audio>
               <audio id=playRoll src="assets/audio/roll.mp3" type="audio/mpeg"></audio>

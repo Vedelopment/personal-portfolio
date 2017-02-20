@@ -1,8 +1,19 @@
 body {
-    background-color: rgb(232, 216, 201);
+    /*background-color: rgb(255, 248, 241);*/
+    background-color: rgba(23, 17, 3, 0.04);
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+h4 {
+font-size: 2vw;
 }
 p {
   margin: 0;
+}
+ul {
+  padding: 1em;
+  list-style: none;
 }
 .main-section {
   padding: 5%;
@@ -13,21 +24,29 @@ p {
   font-size: 10vw;
   max-width: 100%;
   max-height: auto;
-  border: 2px solid rgb(53, 27, 3);
+  border: 2px solid rgb(23, 17, 3);
   margin: 0 auto;
-  padding: 2vw;
-  color: rgb(53, 27, 3);
-  background-color: rgb(237, 221, 206);
+  padding: 1vw;
+  color: rgb(23, 17, 3);
+  background-color: rgb(255, 254, 249);
 }
-.box {
-  display: inline-block;
-  margin: .2em;
+.dev-header {
+  font-size: 1.5vw;
+  border-bottom: 2px solid rgb(23, 17, 3);
+  padding: 1vw;
+}
+.dev-box {
+  background-color: rgb(255, 254, 249);
+  text-align: center;
+  /*margin: 1em 1em 1em 0;*/
+  padding: 0;
+  border: 2px solid rgb(23, 17, 3);
+}
+.dev-box-text {
   padding: 1em;
-  max-width: 500px;
-  border: 2px solid rgb(53, 27, 3);
 }
 .aboutContainer {
-  margin: 1em;
+  /*margin: 1em 0;*/
 }
 ul.nav-main {
   list-style: none;
@@ -38,7 +57,7 @@ li.nav-main {
   display: inline-block;
 }
 .about {
-  font-size: 1.9vw;
+  font-size: 1.4vw;
   font-weight: bold;
   text-align: justify;
 }
@@ -56,34 +75,32 @@ li.nav-main {
 }
 .my-work {
   list-style: none;
-  border: 2px solid rgb(53, 27, 3);
-  background-color: rgb(237, 221, 206);
-  padding-bottom: 200px;
+  border: 2px solid rgb(23, 17, 3);
+  background-color: rgb(255, 254, 249);
+  /*padding-bottom: 200px;*/
 }
 .project-links {
   list-style: none;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
   text-decoration: none;
-  color: rgba(53, 27, 3, .9);
+  color: rgb(23, 17, 3);
   -ms-transition: .2s ease;
   -moz-transition: .2s ease;
   -webkit-transition: .2s ease;
   transition: .2s ease;
-  margin: 10px auto;
   display: block;
-  text-align: center;
-  margin: 20px 30px;
+  margin: 40px 30px;
 }
 
 a {
-  /*text-decoration: none;*/
-  color: rgb(53, 27, 3);
+  text-decoration: underline;;
+  color: rgb(23, 17, 3);
 }
 
 a:hover {
   /*text-decoration: none;*/
-  color: #b22f73;
+  color: rgb(185, 174, 0);
 }
 .weight-normal {
   font-weight: normal;
@@ -91,18 +108,18 @@ a:hover {
 
 #contact {
   list-style: none;
-  border: 2px solid rgb(53, 27, 3);
-  background-color: rgb(237, 221, 206);
+  border: 2px solid rgb(23, 17, 3);
+  background-color: rgb(255, 254, 249);
   margin-bottom: 100px;
 }
 .navButton, .navButton:visited, .navButton:hover {
   text-decoration: none;
   display: inline-block;
-  font-size: 1.5em;
-  background-color: rgb(53, 27, 3);
-  color: rgb(237, 221, 206);
+  font-size: 2vw;
+  background-color: rgb(23, 17, 3);
+  color: rgb(255, 254, 249);
   text-align: center;
-  padding: 20px;
+  padding: 1.5vw;
   margin: 0 auto;
   -ms-transition: .3s ease;
   -moz-transition: .3s ease;
@@ -110,7 +127,7 @@ a:hover {
   transition: .3s ease;
 }
 .navButton:hover {
-  background-color: #b22f73;
+  background-color: rgb(185, 174, 0);
 }
 .clear-fix {
   visibility: hidden;
@@ -125,14 +142,54 @@ a:hover {
   display: block;
   margin: 10px;
   font-size: .8em;
-  color: rgb(237, 221, 206);
+  color: rgb(255, 254, 249);
   text-align: center;
 }
-/* TASSEL PIANO ///////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////*/
+
+/*
+ ____            _   ____              _       _                   _
+| __ )  __ _  __| | | __ )  ___   ___ | |_ ___| |_ _ __ __ _ _ __ | |
+|  _ \ / _` |/ _` | |  _ \ / _ \ / _ \| __/ __| __| '__/ _` | '_ \| |
+| |_) | (_| | (_| | | |_) | (_) | (_) | |_\__ \ |_| | | (_| | |_) |_|
+|____/ \__,_|\__,_| |____/ \___/ \___/ \__|___/\__|_|  \__,_| .__/(_)
+                                                            |_|
+*/
+.col-sm-3 {
+  margin: 1em 7vw 1em 0;
+}
+.col-sm-5 {
+  margin: 1em 6vw 1em 0;
+}
+/*.col-centered{
+    float: none;
+    margin: 0 auto;
+}*/
+
+/*
+________________________
+/           ___ ___       '.
+|\ .-------|:::/:::|--------;
+| |        |:::|:::|        |
+|\|_  ___ _|:::/:::| __ ____|
+|    __  ___""" """_ ____ __`\
+| |\##\\###\\##\\###\\##\\### \
+\ \ \\\\\\\\\\\\\\\\\\\\\\\\\\ \
+|\ \||||||||||||||||||||||||||_|
+| | ;"""""""""""""""""""""""";"|
+| | |"""""".----------.""""""| |
+| | |     |\           \  |  | |
+| | |-----|\\___________\-|  | |
+jgs | | |     | |---------- |  \ | |
+`\| |     | |         | |   `| |
+\_|       |           |    `\|
+*/
+
 .tassel-section {
   background-image: url("Wallpaper2med.jpg");
+  /*border: 2px solid rgb(23, 17, 3);*/
+  /*max-width: 500px;*/
+  margin: 0 auto;
+  /*padding-top: 1em;*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -183,7 +240,7 @@ a:hover {
   width: 10px;
   border-radius: 20px 5px 20px 5px;
 }
-.top {
+.dev-top {
   transition: background-color 0.2s ease;
   margin: 0;
   display: block;
@@ -196,7 +253,7 @@ a:hover {
   border-radius: 100px 100px 10px 10px;
   /*margin: auto;*/
 }
-.do {
+.dev-do {
   float: left;
   background: rgba(255, 0, 0, 1);
   width: 20px;
@@ -205,7 +262,7 @@ a:hover {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.re {
+.dev-re {
   float: left;
   background: rgba(255, 127, 0, 1);
   width: 20px;
@@ -214,7 +271,7 @@ a:hover {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.mi {
+.dev-mi {
   float: left;
   background: rgba(255, 255, 0, 1);
   width: 20px;
@@ -223,7 +280,7 @@ a:hover {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.fa {
+.dev-fa {
   float: left;
   background: rgba(0, 255, 0, 1);
   width: 20px;
@@ -232,7 +289,7 @@ a:hover {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.sol {
+.dev-sol {
   float: left;
   background: rgba(0, 0, 255, 1);
   width: 20px;
@@ -241,7 +298,7 @@ a:hover {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.la {
+.dev-la {
   float: left;
   background: rgba(135, 0, 190, 1);
   width: 20px;
@@ -250,7 +307,7 @@ a:hover {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.ti {
+.dev-ti {
   float: left;
   background: rgba(143, 0, 255, 1);
   width: 20px;
@@ -259,7 +316,7 @@ a:hover {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.dooct {
+.dev-dooct {
   float: left;
   background: rgba(255, 0, 255, 1);
   width: 20px;
