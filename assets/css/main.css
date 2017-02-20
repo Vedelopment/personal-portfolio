@@ -15,6 +15,14 @@ ul {
   padding: 1em;
   list-style: none;
 }
+ul.nav-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li.nav-main {
+  display: inline-block;
+}
 .main-section {
   padding: 5%;
 }
@@ -31,16 +39,20 @@ ul {
   background-color: rgb(255, 254, 249);
 }
 .dev-header {
-  font-size: 1.5vw;
+  font-size: 2vw;
   border-bottom: 2px solid rgb(23, 17, 3);
-  padding: 1vw;
+  padding: 1vw 1.5vw;
 }
 .dev-box {
   background-color: rgb(255, 254, 249);
-  text-align: center;
+  /*text-align: center;*/
   /*margin: 1em 1em 1em 0;*/
   padding: 0;
   border: 2px solid rgb(23, 17, 3);
+}
+.dev-box-contact {
+  width: 220px;
+  padding: 0;
 }
 .dev-box-text {
   padding: 1em;
@@ -48,24 +60,16 @@ ul {
 .aboutContainer {
   /*margin: 1em 0;*/
 }
-ul.nav-main {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-li.nav-main {
-  display: inline-block;
-}
 .about {
   font-size: 1.4vw;
   font-weight: bold;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 .contact {
   display: block;
   font-size: 1.9vw;
   font-weight: bold;
-  text-align: center;
+  /*text-align: center;*/
   padding: 55px;
 }
 .bioPic {
@@ -81,25 +85,25 @@ li.nav-main {
 }
 .project-links {
   list-style: none;
-  font-size: 2em;
+  font-size: 2vw;
   font-weight: bold;
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: rgb(23, 17, 3);
   -ms-transition: .2s ease;
   -moz-transition: .2s ease;
   -webkit-transition: .2s ease;
   transition: .2s ease;
   display: block;
-  margin: 40px 30px;
+  /*margin: 40px 30px;*/
 }
 
 a {
-  text-decoration: underline;;
+  text-decoration: none;
   color: rgb(23, 17, 3);
 }
 
 a:hover {
-  /*text-decoration: none;*/
+  text-decoration: none;
   color: rgb(185, 174, 0);
 }
 .weight-normal {
@@ -119,7 +123,7 @@ a:hover {
   background-color: rgb(23, 17, 3);
   color: rgb(255, 254, 249);
   text-align: center;
-  padding: 1.5vw;
+  padding: 1vw 1.5vw;
   margin: 0 auto;
   -ms-transition: .3s ease;
   -moz-transition: .3s ease;
@@ -145,7 +149,23 @@ a:hover {
   color: rgb(255, 254, 249);
   text-align: center;
 }
-
+/*
+  ___                               _ _
+ / _ \__   _____ _ ____      ___ __(_) |_ ___
+| | | \ \ / / _ \ '__\ \ /\ / / '__| | __/ _ \
+| |_| |\ V /  __/ |   \ V  V /| |  | | ||  __/
+ \___/  \_/ \___|_|    \_/\_/ |_|  |_|\__\___|
+ */
+.no-dec {
+  text-decoration: none;
+}
+.dev-inline {
+  display: inline;
+  padding: 4em 0 0 0;
+}
+i {
+  margin: 1em 0 1em 1em;
+}
 /*
  ____            _   ____              _       _                   _
 | __ )  __ _  __| | | __ )  ___   ___ | |_ ___| |_ _ __ __ _ _ __ | |
@@ -338,3 +358,8 @@ jgs | | |     | |---------- |  \ | |
   -webkit-transform: skewX(2deg);
           transform: skewX(2deg);
 }
+/*@media (max-width: 700px) {
+  body {
+    background-color: pink;
+  }
+}*/
