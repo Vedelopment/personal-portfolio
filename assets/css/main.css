@@ -1,29 +1,19 @@
 body {
-    background-color: rgb(232, 216, 201);
+    /*background-color: rgb(255, 248, 241);*/
+    background-color: rgba(23, 17, 3, 0.04);
 }
-.main-section {
-  padding: 5%;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
 }
-/*.centerHeading {
-  display: block;
-  margin: auto;
-  text-align: center;
-}*/
-.mainHeading {
-  display: block;
-  text-align: center;
-  font-size: 10vw;
-  max-width: 100%;
-  max-height: auto;
-  border: 2px solid rgb(53, 27, 3);
-  margin: 0 auto;
-  padding: 2vw;
-  color: rgb(53, 27, 3);
-  background-color: rgb(237, 221, 206);
-  cursor: url(pusheencursormed.png), url(pusheencursorsmall.png), auto;
+h4 {
+font-size: 2vw;
 }
-.loremContainer {
-  display: block;
+p {
+  margin: 0;
+}
+ul {
+  padding: 1em;
+  list-style: none;
 }
 ul.nav-main {
   list-style: none;
@@ -33,17 +23,53 @@ ul.nav-main {
 li.nav-main {
   display: inline-block;
 }
-.lorem {
+.main-section {
+  padding: 5%;
+}
+.mainHeading {
   display: block;
-  font-size: 1.9vw;
+  text-align: center;
+  font-size: 10vw;
+  max-width: 100%;
+  max-height: auto;
+  border: 2px solid rgb(23, 17, 3);
+  margin: 0 auto;
+  padding: 1vw;
+  color: rgb(23, 17, 3);
+  background-color: rgb(255, 254, 249);
+}
+.dev-header {
+  font-size: 2vw;
+  border-bottom: 2px solid rgb(23, 17, 3);
+  padding: 1vw 1.5vw;
+}
+.dev-box {
+  background-color: rgb(255, 254, 249);
+  /*text-align: center;*/
+  /*margin: 1em 1em 1em 0;*/
+  padding: 0;
+  border: 2px solid rgb(23, 17, 3);
+}
+.dev-box-contact {
+  width: 220px;
+  padding: 0;
+}
+.dev-box-text {
+  padding: 1em;
+}
+.aboutContainer {
+  /*margin: 1em 0;*/
+}
+.about {
+  font-size: 1.4vw;
   font-weight: bold;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 .contact {
   display: block;
   font-size: 1.9vw;
   font-weight: bold;
-  text-align: center;
+  /*text-align: center;*/
   padding: 55px;
 }
 .bioPic {
@@ -53,85 +79,59 @@ li.nav-main {
 }
 .my-work {
   list-style: none;
-  border: 2px solid rgb(53, 27, 3);
-  background-color: rgb(237, 221, 206);
-  padding-bottom: 200px;
+  border: 2px solid rgb(23, 17, 3);
+  background-color: rgb(255, 254, 249);
+  /*padding-bottom: 200px;*/
 }
-.github-links {
+.project-links {
   list-style: none;
-  font-size: 2.5em;
+  font-size: 2vw;
   font-weight: bold;
-  text-decoration: none;
-  color: rgba(53, 27, 3, .9);
+  /*text-decoration: none;*/
+  color: rgb(23, 17, 3);
   -ms-transition: .2s ease;
   -moz-transition: .2s ease;
   -webkit-transition: .2s ease;
   transition: .2s ease;
-  margin: 10px auto;
   display: block;
-  text-align: center;
-  margin: 20px 30px;
+  /*margin: 40px 30px;*/
 }
 
-.github-links:visited {
+a {
   text-decoration: none;
-  color: rgb(53, 27, 3);
+  color: rgb(23, 17, 3);
 }
 
-.github-links:hover {
+a:hover {
   text-decoration: none;
-  color: #b22f73;
+  color: rgb(185, 174, 0);
+}
+.weight-normal {
+  font-weight: normal;
 }
 
 #contact {
   list-style: none;
-  border: 2px solid rgb(53, 27, 3);
-  background-color: rgb(237, 221, 206);
+  border: 2px solid rgb(23, 17, 3);
+  background-color: rgb(255, 254, 249);
   margin-bottom: 100px;
 }
-.navButton {
+.navButton, .navButton:visited, .navButton:hover {
   text-decoration: none;
   display: inline-block;
-  font-size: 1.5em;
-  background-color: rgb(53, 27, 3);
-  color: rgb(237, 221, 206);
+  font-size: 2vw;
+  background-color: rgb(23, 17, 3);
+  color: rgb(255, 254, 249);
   text-align: center;
-  padding: 20px;
+  padding: 1vw 1.5vw;
   margin: 0 auto;
   -ms-transition: .3s ease;
   -moz-transition: .3s ease;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
-.navButton:visited {
-  text-decoration: none;
-  color: rgb(237, 221, 206);
-}
 .navButton:hover {
-  text-decoration: none;
-  background-color: #b22f73;
-}
-.slothLink {
-  font-size: .85em;
-  font-weight: bold;
-  text-decoration: none;
-  color: rgba(53, 27, 3, .9);
-  -ms-transition: .5s ease;
-  -moz-transition: .5s ease;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
-  margin: 10px auto;
-  display: block;
-  text-align: center;
-  margin: 20px 30px;
-  cursor: url(croissantcursor.png), auto;
-}
-.slothLink:visited {
-  text-decoration: none;
-  color: rgba(53, 27, 3, .9);
-}
-.slothLink:hover {
-  color: #b22f73;
+  background-color: rgb(185, 174, 0);
 }
 .clear-fix {
   visibility: hidden;
@@ -146,14 +146,70 @@ li.nav-main {
   display: block;
   margin: 10px;
   font-size: .8em;
-  color: rgb(237, 221, 206);
+  color: rgb(255, 254, 249);
   text-align: center;
 }
-/* TASSEL PIANO ///////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////*/
+/*
+  ___                               _ _
+ / _ \__   _____ _ ____      ___ __(_) |_ ___
+| | | \ \ / / _ \ '__\ \ /\ / / '__| | __/ _ \
+| |_| |\ V /  __/ |   \ V  V /| |  | | ||  __/
+ \___/  \_/ \___|_|    \_/\_/ |_|  |_|\__\___|
+ */
+.no-dec {
+  text-decoration: none;
+}
+.dev-inline {
+  display: inline;
+  padding: 4em 0 0 0;
+}
+i {
+  margin: 1em 0 1em 1em;
+}
+/*
+ ____            _   ____              _       _                   _
+| __ )  __ _  __| | | __ )  ___   ___ | |_ ___| |_ _ __ __ _ _ __ | |
+|  _ \ / _` |/ _` | |  _ \ / _ \ / _ \| __/ __| __| '__/ _` | '_ \| |
+| |_) | (_| | (_| | | |_) | (_) | (_) | |_\__ \ |_| | | (_| | |_) |_|
+|____/ \__,_|\__,_| |____/ \___/ \___/ \__|___/\__|_|  \__,_| .__/(_)
+                                                            |_|
+*/
+.col-sm-3 {
+  margin: 1em 7vw 1em 0;
+}
+.col-sm-5 {
+  margin: 1em 6vw 1em 0;
+}
+/*.col-centered{
+    float: none;
+    margin: 0 auto;
+}*/
+
+/*
+________________________
+/           ___ ___       '.
+|\ .-------|:::/:::|--------;
+| |        |:::|:::|        |
+|\|_  ___ _|:::/:::| __ ____|
+|    __  ___""" """_ ____ __`\
+| |\##\\###\\##\\###\\##\\### \
+\ \ \\\\\\\\\\\\\\\\\\\\\\\\\\ \
+|\ \||||||||||||||||||||||||||_|
+| | ;"""""""""""""""""""""""";"|
+| | |"""""".----------.""""""| |
+| | |     |\           \  |  | |
+| | |-----|\\___________\-|  | |
+jgs | | |     | |---------- |  \ | |
+`\| |     | |         | |   `| |
+\_|       |           |    `\|
+*/
+
 .tassel-section {
   background-image: url("Wallpaper2med.jpg");
+  /*border: 2px solid rgb(23, 17, 3);*/
+  /*max-width: 500px;*/
+  margin: 0 auto;
+  /*padding-top: 1em;*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -203,9 +259,8 @@ li.nav-main {
   height: 20px;
   width: 10px;
   border-radius: 20px 5px 20px 5px;
-  cursor: url("pusheencursormed.png"), auto;
 }
-.top {
+.dev-top {
   transition: background-color 0.2s ease;
   margin: 0;
   display: block;
@@ -218,7 +273,7 @@ li.nav-main {
   border-radius: 100px 100px 10px 10px;
   /*margin: auto;*/
 }
-.do {
+.dev-do {
   float: left;
   background: rgba(255, 0, 0, 1);
   width: 20px;
@@ -227,7 +282,7 @@ li.nav-main {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.re {
+.dev-re {
   float: left;
   background: rgba(255, 127, 0, 1);
   width: 20px;
@@ -236,7 +291,7 @@ li.nav-main {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.mi {
+.dev-mi {
   float: left;
   background: rgba(255, 255, 0, 1);
   width: 20px;
@@ -245,7 +300,7 @@ li.nav-main {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.fa {
+.dev-fa {
   float: left;
   background: rgba(0, 255, 0, 1);
   width: 20px;
@@ -254,7 +309,7 @@ li.nav-main {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.sol {
+.dev-sol {
   float: left;
   background: rgba(0, 0, 255, 1);
   width: 20px;
@@ -263,7 +318,7 @@ li.nav-main {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.la {
+.dev-la {
   float: left;
   background: rgba(135, 0, 190, 1);
   width: 20px;
@@ -272,7 +327,7 @@ li.nav-main {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.ti {
+.dev-ti {
   float: left;
   background: rgba(143, 0, 255, 1);
   width: 20px;
@@ -281,7 +336,7 @@ li.nav-main {
   border-radius: 5px;
   transition: background 0.13s ease;
 }
-.dooct {
+.dev-dooct {
   float: left;
   background: rgba(255, 0, 255, 1);
   width: 20px;
@@ -303,3 +358,8 @@ li.nav-main {
   -webkit-transform: skewX(2deg);
           transform: skewX(2deg);
 }
+/*@media (max-width: 700px) {
+  body {
+    background-color: pink;
+  }
+}*/

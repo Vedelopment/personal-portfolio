@@ -11,9 +11,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- styles -->
   <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/main.css"> -->
   <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/1112a7eba0.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
@@ -39,29 +40,68 @@
           <li class="nav-main"><a href="#tasselsection" class="navButton">Play!</a></li>
         </ul>
       </nav>
-      <div class="loremContainer">
-        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad min
-        </p>
+      <div class="row container-fluid about aboutContainer">
+        <div class="col-sm-3 dev-box">
+          <div class="dev-header">
+            <h4>About</h4>
+          </div>
+          <p class="dev-box-text">Why hello! I am a web developer who specializes in front-end with an eye for design and passion for seamless user experience. With a decade of experience as a music producer, engineer and studio tech, working with rotating teams of inspired people and troubleshooting technical issues are strengths I bring to my current development work. Check out <a href="#my-work">&#60;my work&#62;</a> and <a href="#contact">&#60;say hello!&#62;</a>
+          </p>
+        </div>
+        <div class="col-sm-3 dev-box">
+          <div class="dev-header">
+            <h4>Code</h4>
+          </div>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Materialize</li>
+            <li>jQuery</li>
+            <li>Responsive Design</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
+            <li>MVC Patterns</li>
+            <li>Angular</li>
+            <li>RESTful Routing/APIs</li>
+            <li>Testing</li>
+          </ul>
+        </div>
+        <div class="col-sm-3 dev-box">
+          <div class="dev-header">
+            <h4>Learning</h4>
+          </div>
+          <ul>
+            <li>d3</li>
+            <li>SASS</li>
+          </ul>
+        </div>
       </div>
-      <img class="bioPic" src="assets/imgs/patchbay.png">
-      <div id="my-work">
-        <ul class="my-work">
-          <li><a class="github-links" href="http://save-the-enterprise.bitballoon.com/">Save the Enterprise! Game</a></li>
-          <li><a class="github-links" href="https://github.com/Vedelopment/vedelopment.github.io">Vedelopment Site</a></li>
-          <li><a class="github-links" href="https://github.com/Vedelopment/js-control-flow-training">Java Flow Control Training</a></li>
-          <li><a class="github-links" href="https://github.com/Vedelopment/functions-training">Functions Training</a></li>
-          <li><a class="github-links" href="https://github.com/Vedelopment/dev-tools-training">Dev Tools Training</a></li>
-          <li><a class="github-links" href="#">Another thing</a></li>
-          <li><a class="github-links" href="#">Another thing</a></li>
-          <li><a class="github-links" href="#">Another thing</a></li>
-        </ul>
-      <div class="lorem" id="contact">
-        <p class="contact">Professional, aesthetically-forward design and interactivity so you can provide a powerful and engaging experience.</p>
-        <p class="contact">Email me at nothanks@gmail.com or follow me here, here and here.</p>
-        <p class="contact">Let's make YOUR thing!</p>
+      <!-- <img class="bioPic" src="assets/imgs/patchbay.png"> -->
+      <div class="row container">
+        <div class="col-sm-5 dev-box" id="my-work">
+          <div class="dev-header">
+            <h4>Projects</h4>
+          </div>
+          <ul>
+            <li><a class="project-links" href="" target="_blank"><i class="fa fa-spinner" aria-hidden="true"></i> &#60;Final Project&#62;</a></li>
+            <li><a class="project-links" href="http://save-the-enterprise.bitballoon.com/" target="_blank"><i class="fa fa-hand-spock-o" aria-hidden="true"></i> &#60;Save the Enterprise!&#62;</a></li>
+            <li><a class="project-links" href="https://getfedd.herokuapp.com/" target="_blank"><i class="fa fa-leaf" aria-hidden="true"></i> &#60;FEDD&#62;</a></li>
+            <li><a class="project-links" href="http://floating-lowlands-88571.herokuapp.com/" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> &#60;TASC&#62;</a></li>
+            <li><a class="project-links" href="#tasselsection" target="_blank"><i class="fa fa-music" aria-hidden="true"></i> &#60;Play&#62;</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-5 dev-box-contact" id="contact">
+          <div class="dev-header">
+            <h4>Contact</h4>
+          </div>
+          <a class="project-links dev-inline" href="mailto:vedelopment@gmail.com"><i class="fa fa-envelope-open-o" aria-hidden="true"></i></a>
+          <a class="project-links dev-inline" href="https://github.com/Vedelopment"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+          <a class="project-links dev-inline" href="https://www.linkedin.com/in/ledrecording"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
       </div>
-      </div>
-      <a class="slothLink" href="https://www.google.com/search?q=sloth+or+chocolate+croissant&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi6_9_TudHQAhXErFQKHRrRCCkQ_AUICCgB&biw=1309&bih=726" target="_blank">Sloth or chocolate croissant?</a>
     </div>
 <!--//////////////////////////////////////////***TASSEL SECTION***////////////////////////////////////////////////////-->
     <div class="tassel-section" id="tasselsection">
@@ -79,16 +119,16 @@
             <p class="string"></p>
             <p class="string"></p>
             <p class="string"></p>
-            <p class="playMode top" id=top onclick="playRoll()"></p>
+            <p class="playMode dev-top" id=dev-top onclick="playRoll()"></p>
               <div class="breeze" id="breeze">
-                <p class="do" id=do onclick="playDo()"></p>
-                <p class=re id=re onclick="playRe()"></p>
-                <p class=mi id=mi onclick="playMi()"></p>
-                <p class=fa id=fa onclick="playFa()"></p>
-                <p class=sol id=sol onclick="playSol()"></p>
-                <p class=la id=la onclick="playLa()"></p>
-                <p class=ti id=ti onclick="playTi()"></p>
-                <p class=dooct id=dooct onclick="playDooct()"></p>
+                <p class="dev-do" id=dev-do onclick="playDo()"></p>
+                <p class="dev-re" id=dev-re onclick="playRe()"></p>
+                <p class="dev-mi" id=dev-mi onclick="playMi()"></p>
+                <p class="dev-fa" id=dev-fa onclick="playFa()"></p>
+                <p class="dev-sol" id=dev-sol onclick="playSol()"></p>
+                <p class="dev-la" id=dev-la onclick="playLa()"></p>
+                <p class="dev-ti" id=dev-ti onclick="playTi()"></p>
+                <p class=dev-dooct id=dev-dooct onclick="playDooct()"></p>
               </div>
               <audio id=playMeow src="assets/audio/Meow_Mix_Comm.mp3" type="audio/mpeg"></audio>
               <audio id=playRoll src="assets/audio/roll.mp3" type="audio/mpeg"></audio>
