@@ -23,8 +23,8 @@ ul.nav-main {
 li.nav-main {
   display: inline-block;
 }
-.dev-link-color {
-  color: rgb(185, 174, 0);
+.dev-link-special, .dev-link-special:hover {
+  text-decoration: underline;
 }
 .main-section {
   padding: 5%;
