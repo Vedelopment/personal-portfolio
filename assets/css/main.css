@@ -23,6 +23,9 @@ ul.nav-main {
 li.nav-main {
   display: inline-block;
 }
+.dev-link-color {
+  color: rgb(185, 174, 0);
+}
 .main-section {
   padding: 5%;
 }
