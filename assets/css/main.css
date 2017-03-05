@@ -208,7 +208,7 @@ jgs | | |     | |---------- |  \ | |
 */
 
 .tassel-section {
-  background-image: url("Wallpaper2med.jpg");
+  background-image: url("../imgs/Wallpaper2med.jpg");
   /*border: 2px solid rgb(23, 17, 3);*/
   /*max-width: 500px;*/
   margin: 0 auto;
@@ -276,77 +276,37 @@ jgs | | |     | |---------- |  \ | |
   border-radius: 100px 100px 10px 10px;
   /*margin: auto;*/
 }
-.dev-do {
+.dev-key {
   float: left;
-  background: rgba(255, 0, 0, 1);
   width: 20px;
   height: 300px;
   margin: 2px;
   border-radius: 5px;
   transition: background 0.13s ease;
+}
+.dev-do {
+  background: rgba(255, 0, 0, 1);
 }
 .dev-re {
-  float: left;
   background: rgba(255, 127, 0, 1);
-  width: 20px;
-  height: 300px;
-  margin: 2px;
-  border-radius: 5px;
-  transition: background 0.13s ease;
 }
 .dev-mi {
-  float: left;
   background: rgba(255, 255, 0, 1);
-  width: 20px;
-  height: 300px;
-  margin: 2px;
-  border-radius: 5px;
-  transition: background 0.13s ease;
 }
 .dev-fa {
-  float: left;
   background: rgba(0, 255, 0, 1);
-  width: 20px;
-  height: 300px;
-  margin: 2px;
-  border-radius: 5px;
-  transition: background 0.13s ease;
 }
 .dev-sol {
-  float: left;
   background: rgba(0, 0, 255, 1);
-  width: 20px;
-  height: 300px;
-  margin: 2px;
-  border-radius: 5px;
-  transition: background 0.13s ease;
 }
 .dev-la {
-  float: left;
   background: rgba(135, 0, 190, 1);
-  width: 20px;
-  height: 300px;
-  margin: 2px;
-  border-radius: 5px;
-  transition: background 0.13s ease;
 }
 .dev-ti {
-  float: left;
   background: rgba(143, 0, 255, 1);
-  width: 20px;
-  height: 300px;
-  margin: 2px;
-  border-radius: 5px;
-  transition: background 0.13s ease;
 }
 .dev-dooct {
-  float: left;
   background: rgba(255, 0, 255, 1);
-  width: 20px;
-  height: 300px;
-  margin: 2px;
-  border-radius: 5px;
-  transition: background 0.13s ease;
 }
   @-webkit-keyframes skew {
 0% {
