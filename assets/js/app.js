@@ -68,15 +68,15 @@ function playMode() {
     document.getElementById("dev-la").removeAttribute("onmouseover");
     document.getElementById("dev-ti").removeAttribute("onmouseover");
     document.getElementById("dev-dooct").removeAttribute("onmouseover");
-    document.getElementById("dev-dev-top").setAttribute("onClick", "playRoll()");
-    document.getElementById("dev-do").setAttribute("onClick", "playDo()");
-    document.getElementById("dev-re").setAttribute("onClick", "playRe()");
-    document.getElementById("dev-mi").setAttribute("onClick", "playMi()");
-    document.getElementById("dev-fa").setAttribute("onClick", "playFa()");
-    document.getElementById("dev-sol").setAttribute("onClick", "playSol()");
-    document.getElementById("dev-la").setAttribute("onClick", "playLa()");
-    document.getElementById("dev-ti").setAttribute("onClick", "playTi()");
-    document.getElementById("dev-dooct").setAttribute("onClick", "playDooct()");
+    document.getElementById("dev-top").setAttribute("onclick", "playRoll()");
+    document.getElementById("dev-do").setAttribute("onclick", "playDo()");
+    document.getElementById("dev-re").setAttribute("onclick", "playRe()");
+    document.getElementById("dev-mi").setAttribute("onclick", "playMi()");
+    document.getElementById("dev-fa").setAttribute("onclick", "playFa()");
+    document.getElementById("dev-sol").setAttribute("onclick", "playSol()");
+    document.getElementById("dev-la").setAttribute("onclick", "playLa()");
+    document.getElementById("dev-ti").setAttribute("onclick", "playTi()");
+    document.getElementById("dev-dooct").setAttribute("onclick", "playDooct()");
   }
 }
 function playMeow()
