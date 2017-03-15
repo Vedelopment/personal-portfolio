@@ -23,9 +23,7 @@ ul.nav-main {
 li.nav-main {
   display: inline-block;
 }
-.dev-link-special, .dev-link-special:hover {
-  text-decoration: underline;
-}
+
 .main-section {
   padding: 5%;
 }
@@ -86,7 +84,7 @@ li.nav-main {
   background-color: rgb(255, 254, 249);
   /*padding-bottom: 200px;*/
 }
-.project-links {
+.dev-no-dec-links {
   list-style: none;
   font-size: 2vw;
   font-weight: bold;
@@ -102,7 +100,7 @@ li.nav-main {
 
 a {
   text-decoration: none;
-  color: rgb(23, 17, 3);
+  color: rgb(167, 157, 0);
 }
 
 a:hover {
