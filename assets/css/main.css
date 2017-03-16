@@ -39,7 +39,7 @@ ul.nav-main {
 li.nav-main {
   display: inline-block;
 }
-a {
+a, a:visited, a:after, a:before, a:focus {
   text-decoration: none;
   color: rgb(148, 139, 0);
 }
@@ -136,7 +136,7 @@ p {
   text-align: justify;
   margin-left: 100px;
 }
-.dev-no-dec-links {
+.dev-no-dec-links, .dev-no-dec-links:visited, .dev-no-dec-links:before, .dev-no-dec-links:after, .dev-no-dec-links:focus {
   /*display: block;*/
   color: rgb(23, 17, 3);
   -ms-transition: .2s ease;
