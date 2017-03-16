@@ -114,7 +114,7 @@ function playMeow()
     playMeow.play()
       if (playMeow.paused) {
           playMeow.play();
-      }else{
+      } else {
           playMeow.currentTime = 0;}
 }
 function changeColorTop(x) {

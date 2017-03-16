@@ -24,9 +24,6 @@ h4 {
 h5 {
   font-size: 0.5em;
 }
-p {
-  /*font-size: 0.3em;*/
-}
 ul {
   padding: 10px;
   list-style: none;
@@ -49,6 +46,9 @@ a {
 a:hover {
   text-decoration: none;
   color: rgb(185, 174, 0);
+}
+p {
+  font-size: 16px;
 }
 .dev-main-section {
   padding: 0;
