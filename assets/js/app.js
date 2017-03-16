@@ -1,7 +1,33 @@
 console.log("app.js linked.");
 
-// $(document).ready(function(){
-// });
+$(document).ready(function(){
+  $('.parallax').parallax();
+  $('.carousel').carousel({fullWidth: true});
+  autoplay()
+});
+
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
+
+
+$window = $(window);
+$window.scroll(function() {
+  $scroll_position = $window.scrollTop();
+    if ($scroll_position > 398) {
+        $('.dev-nav').addClass('sticky');
+        $('.dev-main-section').css('padding-top', '67px');
+
+        // to get rid of jerk
+        header_height = $('.your-header').innerHeight();
+        $('body').css('padding-top' , header_height);
+    } else {
+        $('body').css('padding-top' , '0');
+        $('.dev-nav').removeClass('sticky');
+        $('.dev-main-section').css('padding-top', '0');
+    }
+ });
 
 // TASSEL PIANO LOGIC
 //           _
