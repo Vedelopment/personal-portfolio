@@ -1,23 +1,29 @@
 body {
-    background-color: rgb(255, 254, 249);
-    font-family: helvetica;
+  background-color: rgba(23, 17, 3, 1);
+  font-family: helvetica;
 }
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
-h2 {
-font-size: 1.2em;
+h1 {
+  font-weight: 500;
+  line-height: 1.1;
 }
+h2 {
+  font-size: 1.2em;
 }
 h3 {
-font-size: 1em;
+  font-size: 1em;
 }
 h4 {
-font-size: 0.7em;
+  font-size: 0.7em;
+  padding: 6px;
+}
+h5 {
+  font-size: 0.5em;
 }
 p {
-  font-size: 1.3em;
-  margin: 0;
+  /*font-size: 0.3em;*/
 }
 ul {
   padding: 10px;
@@ -38,7 +44,6 @@ a {
   text-decoration: none;
   color: rgb(148, 139, 0);
 }
-
 a:hover {
   text-decoration: none;
   color: rgb(185, 174, 0);
@@ -70,7 +75,7 @@ a:hover {
   border-top: 2px solid rgb(23, 17, 3);
   border-bottom: 2px solid rgb(23, 17, 3);
 }
-.dev-nav-button, .dev-nav-button:visited, .dev-nav-button:hover {
+.dev-nav-button, .dev-nav-button:visited, .dev-nav-button:hover, .dev-nav-button:focus {
   text-decoration: none;
   display: inline-block;
   margin-left: -4px; /* remove inline-block space */
@@ -91,7 +96,7 @@ a:hover {
   background-color: rgb(255, 254, 249);
   color: rgb(23, 17, 3);
   padding: 0 0 30px 0;
-  height: 400px;
+  min-height: 400px;
 }
 .dev-box-dark {
   background-color: rgba(23, 17, 3, 1);
@@ -161,8 +166,11 @@ a:hover {
 }
 .project-imgs {
   display: inline;
-  max-width: 500px;
+  max-width: 700px;
   padding: 20px;
+}
+.dev-contact-page {
+  text-align: center;
 }
 .sticky {
   position: fixed;
@@ -199,8 +207,14 @@ a:hover {
   font-size: 1.7em;
   margin: 10px;
 }
+.dev-i-font-dark {
+  color: rgba(23, 17, 3, 1);
+  display: inline;
+  font-size: 1.7em;
+  margin: 10px;
+}
 .parallax-container {
-  height: 200px;
+  height: 150px;
 }
 .carousel {
   max-width: 900px;

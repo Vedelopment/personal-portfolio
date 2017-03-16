@@ -15,7 +15,7 @@ function autoplay() {
 $window = $(window);
 $window.scroll(function() {
   $scroll_position = $window.scrollTop();
-    if ($scroll_position > 398) {
+    if ($scroll_position > 348) {
         $('.dev-nav').addClass('sticky');
         $('.dev-main-section').css('padding-top', '67px');
 
