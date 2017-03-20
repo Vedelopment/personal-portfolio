@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vedelopment</title>
+
+  <meta charset="utf-8" />
+  <meta name="description" content="Portfolio Site">
+  <meta name="author" content="LD Dean">
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+  <!-- mobile -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/1112a7eba0.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+  <link rel="stylesheet" type=text/css href="assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="dev-header">
+    <!-- <h1> class="dev-heading">Vedelopment</h1> -->
+    <ul class="dev-nav nav-main">
+      <li class="nav-main"><a href="index.html" class="dev-nav-button"><img class="logo" src="assets/imgs/favicon.png"></a></li>
+      <li class="nav-main"><a href="hireLD.html" class="dev-nav-button">Hire Me</a></li>
+      <li class="nav-main"><a href="work.html" class="dev-nav-button">My Work</a></li>
+      <li class="nav-main"><a href="https://github.com/Vedelopment" class="dev-nav-button">Github</a></li>
+      <li class="nav-main"><a href="Vedelopment_Resume.pdf" class="dev-nav-button">Resume</a></li>
+    </ul>
+  </div>
+
+<!--//////////////////////////////////////////***TASSEL SECTION***////////////////////////////////////////////////////-->
+
+  <div class="tassel-section" id="tasselsection">
+    <div class="toggle">
+      <button class="buttonToggle" id="buttonToggle" onclick="playMode()">Click/Hover</button>
+    </div>
+    <div class="tassel" id="tassel">
+          <p class="string"></p>
+          <p class="string"></p>
+          <p class="stringEgg" id="stringEgg" onclick="playMeow()"></p>
+          <p class="string"></p>
+          <p class="string"></p>
+          <p class="string"></p>
+          <p class="string"></p>
+          <p class="playMode dev-top" id="dev-top" onclick="playRoll()"></p>
+            <div class="breeze" id="breeze">
+              <p class="dev-key dev-do" id="dev-do" onclick="playDo()"></p>
+              <p class="dev-key dev-re" id="dev-re" onclick="playRe()"></p>
+              <p class="dev-key dev-mi" id="dev-mi" onclick="playMi()"></p>
+              <p class="dev-key dev-fa" id="dev-fa" onclick="playFa()"></p>
+              <p class="dev-key dev-sol" id="dev-sol" onclick="playSol()"></p>
+              <p class="dev-key dev-la" id="dev-la" onclick="playLa()"></p>
+              <p class="dev-key dev-ti" id="dev-ti" onclick="playTi()"></p>
+              <p class="dev-key dev-dooct" id="dev-dooct" onclick="playDooct()"></p>
+            </div>
+            <audio id="playMeow" src="assets/audio/Meow_Mix_Comm.mp3" type="audio/mpeg"></audio>
+            <audio id="playRoll" src="assets/audio/roll.mp3" type="audio/mpeg"></audio>
+            <audio id="playDo" src="assets/audio/c.mp3" type="audio/mpeg"></audio>
+            <audio id="playRe" src="assets/audio/d.mp3" type="audio/mpeg"></audio>
+            <audio id="playMi" src="assets/audio/e.mp3" type="audio/mpeg"></audio>
+            <audio id="playFa" src="assets/audio/f.mp3" type="audio/mpeg"></audio>
+            <audio id="playSol" src="assets/audio/g.mp3" type="audio/mpeg"></audio>
+            <audio id="playLa" src="assets/audio/a.mp3" type="audio/mpeg"></audio>
+            <audio id="playTi" src="assets/audio/h.mp3" type="audio/mpeg"></audio>
+            <audio id="playDooct" src="assets/audio/c1.mp3" type="audio/mpeg"></audio>
+            <div class="clear-fix"> </div>
+      </div>
+  </div>
+  <div class="dev-box-contact">
+    <div class="footer-nav">
+      <a href="mailto:vedelopment@gmail.com"><i class="fa fa-envelope-open-o dev-i-font" aria-hidden="true"></i></a>
+      <a href="https://github.com/Vedelopment" ><i class="fa fa-github dev-i-font" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/ledrecording" ><i class="fa fa-linkedin dev-i-font" aria-hidden="true"></i></a>
+    </div>
+    <small>Vedelopment © 2017</small>
+  </div>
+</body>
+</html>

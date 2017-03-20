@@ -11,4 +11,4 @@
 - wonder if narrowing the width of the lines of text would make the site feel easier to read on the eyes
 
 #Color:
-http://paletton.com/palette.php?uid=50A1a0k18O1%2B%2Bnb2-%2B%2B00uX35tf
+http://paletton.com/#uid=13j0u0ki-vjcyHCgc-jkJtbmNrj
