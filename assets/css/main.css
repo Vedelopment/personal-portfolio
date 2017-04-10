@@ -24,6 +24,9 @@ h4 {
 h5 {
   font-size: 0.5em;
 }
+h6 {
+  font-size: 0.2em;
+}
 ul {
   padding: 10px;
   list-style: none;
@@ -50,12 +53,14 @@ a:hover {
 p {
   font-size: 16px;
 }
-.dev-main-section {
+.dev-body {
   padding: 0;
 }
 .dev-header {
+  margin-top: -250px;
   width: 100%;
   max-height: auto;
+  background-color: rgba(23, 17, 3, 0.3);
 }
 .dev-sub-header {
   font-size: 2.5em;
@@ -63,32 +68,35 @@ p {
   padding: 40px 60px;
   margin: 0 auto;
 }
+.dev-title-section {
+  margin: 0.5em 0;
+  padding: 30px;
+  color: rgba(255, 254, 249, 1);
+}
+.dev-title {
+  font-size: 9em;
+}
+.dev-sub-title {
+  font-size: 2em;
+  letter-spacing: 0.64em;
+}
 .dev-bio-header {
   padding: 20px 0 0 0;
 }
-.dev-heading {
-  display: block;
-  text-align: center;
-  font-size: 9em;
-  margin: 0 auto;
-  padding: 30px;
-  color: rgb(23, 17, 3);
-  background-color: rgba(255, 254, 249, 1);
-}
 .dev-nav {
   background-color: rgba(255, 254, 249, 1);
-  border-top: 2px solid rgb(23, 17, 3);
+  /*border-top: 2px solid rgb(23, 17, 3);*/
   border-bottom: 2px solid rgb(23, 17, 3);
 }
 .dev-nav-button, .dev-nav-button:visited, .dev-nav-button:hover, .dev-nav-button:focus {
   text-decoration: none;
   display: inline-block;
   margin-left: -4px; /* remove inline-block space */
-  font-size: 1.7em;
+  font-size: 1.3em;
   color: rgb(23, 17, 3);
   background-color: rgb(255, 254, 249);
   text-align: center;
-  padding: 0.4em 0.6em;
+  padding: 0.6em;
   -ms-transition: .3s ease;
   -moz-transition: .3s ease;
   -webkit-transition: .3s ease;
@@ -116,6 +124,10 @@ p {
   text-align: center;
   height: 100px;
 }
+.dev-box-about {
+  padding-top: 1em;
+  min-height: 380px;
+}
 .dev-box-text {
   max-width: 700px;
   margin: 0 auto;
@@ -123,7 +135,6 @@ p {
 }
 .dev-box-half {
   display: inline-block;
-  /*margin-left: -3px;*/
   width: 49%;
   vertical-align: top;
 }
@@ -140,7 +151,6 @@ p {
   margin-left: 100px;
 }
 .dev-no-dec-links, .dev-no-dec-links:visited, .dev-no-dec-links:before, .dev-no-dec-links:after, .dev-no-dec-links:focus {
-  /*display: block;*/
   color: rgb(23, 17, 3);
   -ms-transition: .2s ease;
   -moz-transition: .2s ease;
@@ -227,7 +237,7 @@ p {
   margin: 10px;
 }
 .parallax-container {
-  height: 150px;
+  height: 240px;
 }
 .carousel {
   max-width: 900px;

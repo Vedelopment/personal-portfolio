@@ -13,9 +13,9 @@ function autoplay() {
 $window = $(window);
 $window.scroll(function() {
   $scroll_position = $window.scrollTop();
-    if ($scroll_position > 348) {
+    if ($scroll_position > 244) {
         $('.dev-nav').addClass('sticky');
-        $('.dev-main-section').css('padding-top', '67px');
+        $('.dev-body').css('padding-top', '60px');
 
         // to get rid of jerk
         header_height = $('.your-header').innerHeight();
@@ -23,7 +23,7 @@ $window.scroll(function() {
     } else {
         $('body').css('padding-top' , '0');
         $('.dev-nav').removeClass('sticky');
-        $('.dev-main-section').css('padding-top', '0');
+        $('.dev-body').css('padding-top', '0');
     }
  });
 
