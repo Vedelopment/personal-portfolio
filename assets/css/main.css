@@ -125,10 +125,23 @@ p {
   height: 100px;
 }
 .dev-box-about {
-  padding-top: 1em;
-  min-height: 380px;
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  text-align: left;
+  background-image: url("../imgs/LD_work.png");
+  background-size: cover;
+  padding-top: 4em;
+  min-height: 640px;
+}
+.dev-about-header {
+  font-size: 2.7em;
+  text-align: left;
+  max-width: 700px;
+  padding: 40px 0;
+  margin: 0 auto;
 }
 .dev-box-text {
+  font-size: 1em;
   max-width: 700px;
   margin: 0 auto;
   text-align: justify;
@@ -156,6 +169,9 @@ p {
   -moz-transition: .2s ease;
   -webkit-transition: .2s ease;
   transition: .2s ease;
+}
+.dev-no-dec-links-light, .dev-no-dec-links:visited, .dev-no-dec-links:before, .dev-no-dec-links:after, .dev-no-dec-links:focus {
+  color: rgba(255, 254, 249, 1);
 }
 .dev-projects-page {
   background-color: rgba(255, 254, 249, 1);
