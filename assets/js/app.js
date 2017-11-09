@@ -18,8 +18,8 @@ $window.scroll(function() {
         $('.dev-body').css('padding-top', '60px');
 
         // to get rid of jerk
-        header_height = $('.your-header').innerHeight();
-        $('body').css('padding-top' , header_height);
+        // header_height = $('.your-header').innerHeight();
+        // $('body').css('padding-top' , header_height);
     } else {
         $('body').css('padding-top' , '0');
         $('.dev-nav').removeClass('sticky');
